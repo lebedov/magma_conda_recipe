@@ -1,5 +1,5 @@
 {% set build = 0 %}
-{% set version = '2.3.0' %}
+{% set version = '2.5.0' %}
 
 package:
     name: magma
@@ -13,7 +13,7 @@ about:
 source:
     fn: magma-{{version}}.tar.gz
     url: http://icl.cs.utk.edu/projectsfiles/magma/downloads/magma-{{version}}.tar.gz
-    md5: 9aaf85a338d3a17303e0c69f86f0ec52
+    md5: a869dcbc4029a57126e21a6ec4850083
 
 requirements:
     build:
@@ -26,4 +26,4 @@ requirements:
 
 build:
     number: {{build}}
-    string: cuda91_{{build}}
+    string: cuda101_{{build}}
