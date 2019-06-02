@@ -18,11 +18,9 @@ source:
 requirements:
     build:
         - openblas
-        - libgfortran
 
     run:
         - openblas
-        - libgfortran
 
 build:
     number: {{build}}
